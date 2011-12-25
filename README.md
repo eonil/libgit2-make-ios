@@ -8,8 +8,13 @@ Hoon Hwangbo
 
 
 
+[**libgit2**](https://github.com/libgit2/libgit2) is using *CMake* to support cross-compile.
+Anyway the *CMake* itself doesn't support Apple's iOS platform (yet), and iOS platform require some specific post-processing of binary.
+So I made this stuff to offer automated build of `libgit2` library for iOS platform.
 
 This project is a set of script which makes *universal static library* of `libgit2` for *iOS*.
+
+
 
 
 
