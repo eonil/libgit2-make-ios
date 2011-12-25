@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		45BB02B914A76F0400B3D048 /* libSDK Locator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSDK Locator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BB02BC14A76F0400B3D048 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45BB02C014A76F0400B3D048 /* SDK Locator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDK Locator-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		45BB02AE14A76F0400B3D048 = {
+			isa = PBXGroup;
+			children = (
+				45BB02BE14A76F0400B3D048 /* SDK Locator */,
+				45BB02BB14A76F0400B3D048 /* Frameworks */,
+				45BB02BA14A76F0400B3D048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45BB02BA14A76F0400B3D048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BB02B914A76F0400B3D048 /* libSDK Locator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BB02BB14A76F0400B3D048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45BB02BC14A76F0400B3D048 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45BB02BE14A76F0400B3D048 /* SDK Locator */ = {
+			isa = PBXGroup;
+			children = (
+				45BB02BF14A76F0400B3D048 /* Supporting Files */,
+			);
+			path = "SDK Locator";
+			sourceTree = "<group>";
+		};
+		45BB02BF14A76F0400B3D048 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45BB02C014A76F0400B3D048 /* SDK Locator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BB02B814A76F0400B3D048 /* SDK Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BB02C614A76F0400B3D048 /* Build configuration list for PBXNativeTarget "SDK Locator" */;
+			buildPhases = (
+				45BB02C914A76F3600B3D048 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDK Locator";
+			productName = "SDK Locator";
+			productReference = 45BB02B914A76F0400B3D048 /* libSDK Locator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45BB02B014A76F0400B3D048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Eonil Company";
+			};
+			buildConfigurationList = 45BB02B314A76F0400B3D048 /* Build configuration list for PBXProject "SDK Locator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45BB02AE14A76F0400B3D048;
+			productRefGroup = 45BB02BA14A76F0400B3D048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BB02B814A76F0400B3D048 /* SDK Locator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45BB02C914A76F3600B3D048 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh  \"$EONIL_HOOK_SCRIPT\" \"$EONIL_HOOK_PARAM\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45BB02C414A76F0400B3D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45BB02C514A76F0400B3D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45BB02C714A76F0400B3D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SDK_Locator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDK Locator/SDK Locator-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		45BB02C814A76F0400B3D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SDK_Locator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDK Locator/SDK Locator-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BB02B314A76F0400B3D048 /* Build configuration list for PBXProject "SDK Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BB02C414A76F0400B3D048 /* Debug */,
+				45BB02C514A76F0400B3D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BB02C614A76F0400B3D048 /* Build configuration list for PBXNativeTarget "SDK Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BB02C714A76F0400B3D048 /* Debug */,
+				45BB02C814A76F0400B3D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45BB02B014A76F0400B3D048 /* Project object */;
+}
