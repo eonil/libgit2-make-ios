@@ -37,6 +37,20 @@ The script will make `build` directory at current directory. And you always have
 
 
 
+Dependencies
+------------
+
+These stuffs required to use this script.
+
+1. Internet connection.
+2. Mac OS X or iOS SDK installation. Xcode required.
+
+
+
+
+
+
+
 
 
 
