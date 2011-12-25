@@ -28,7 +28,7 @@ If you already have source files of `libgit2` in location of `./../libgit2` and 
 
 	sh	make.sh ./../libgit2
 	
-The script will make `build` directory at current directory. And you always have to specify ource directory of `libgit2`.
+The script will make `build` directory at current directory. And you always have to specify source directory of `libgit2`. To see syntax, just run it without argument.
 
 
 
