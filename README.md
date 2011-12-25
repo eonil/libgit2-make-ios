@@ -26,7 +26,7 @@ This will download current source of `libgit2` from *Github* and make `src` and 
 
 If you already have source files of `libgit2` in location of `./../libgit2` and just want to chain build script, use `make.sh` like this.
 
-	sh	./make.sh ./../libgit2
+	sh	make.sh ./../libgit2
 	
 The script will make `build` directory at current directory. And you always have to specify ource directory of `libgit2`.
 
