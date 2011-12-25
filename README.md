@@ -27,7 +27,7 @@ Here's simple and *just working* example.
 	cd	libgit2-make-ios
 	sh	download-and-make-at-here.sh
 
-This will download current source of `libgit2` from *Github* and make `src` and `build` directory. You can take static library binary in `./build/libgit2.a`.
+This will download current source of `libgit2` from *Github* and make `src` and `build` directory. You can take static library binary from `./build/libgit2.a`.
 
 If you already have source files of `libgit2` in location of `./../libgit2` and just want to chain build script, use `make.sh` like this.
 
