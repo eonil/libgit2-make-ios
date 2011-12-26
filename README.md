@@ -27,7 +27,7 @@ Here's simple and *just working* example.
 	cd	libgit2-make-ios
 	sh	download-make-clean-deploy.sh ./libgit2.a
 
-This will download, make, clean and deploy the `libgit2` binary into specified location. This script will make `src` and `build` directory on current directory while building.
+This will download, make, clean and deploy the `libgit2` binary into specified location. You have to execute this script on writable position because this script will make some directories (`src` and `build`) while performing build.
 
 If you already have source files of `libgit2` in location of `./../libgit2` and just want to chain build script, use `make.sh` like this.
 
