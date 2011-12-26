@@ -49,7 +49,7 @@ These stuffs required to use this script.
 
 1. Internet connection.
 2. Mac OS X or iOS SDK installation. Xcode required.
-
+3. CMake. I recommed [*Homebrew*](http://mxcl.github.com/homebrew/) to install this on Mac OS X. (`brew install cmake`)
 
 
 
