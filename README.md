@@ -25,9 +25,9 @@ Here's simple and *just working* example.
 
 	git	clone git://github.com/libgit2-make-ios.git
 	cd	libgit2-make-ios
-	sh	download-and-make-at-here.sh
+	sh	download-make-clean-deploy.sh ./libgit2.a
 
-This will download current source of `libgit2` from *Github* and make `src` and `build` directory. You can take static library binary from `./build/libgit2.a`.
+This will download, make, clean and deploy the `libgit2` binary into specified location. This script will make `src` and `build` directory on current directory while building.
 
 If you already have source files of `libgit2` in location of `./../libgit2` and just want to chain build script, use `make.sh` like this.
 
@@ -48,7 +48,7 @@ Dependencies
 These stuffs required to use this script.
 
 1. Internet connection.
-2. Mac OS X or iOS SDK installation. Xcode required.
+2. Mac OS X or iOS SDK installation. This will give us Xcode and Git.
 3. *CMake*. I recommed [*Homebrew*](http://mxcl.github.com/homebrew/) to install this on Mac OS X. (`brew install cmake`)
 
 
