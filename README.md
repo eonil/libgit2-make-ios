@@ -47,9 +47,10 @@ Dependencies
 
 These stuffs required to use this script.
 
-1. Internet connection.
-2. Mac OS X or iOS SDK installation. This will give us Xcode and Git.
-3. *CMake*. I recommed [*Homebrew*](http://mxcl.github.com/homebrew/) to install this on Mac OS X. (`brew install cmake`)
+1. Internet connection. Especially to `http://github.com`
+2. Mac OS X installation. This is a script designed for only iOS platforms.
+3. Mac OS X or iOS SDK installation. This will give us Xcode and Git.
+4. CMake. I recommed [*Homebrew*](http://mxcl.github.com/homebrew/) to install this on Mac OS X. (`brew install cmake`)
 
 
 
