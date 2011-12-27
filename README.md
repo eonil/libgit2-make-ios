@@ -59,6 +59,10 @@ These stuffs required to use this script.
 
 
 
+Source Code
+-----------
+
+Source code is formatted with tabs which are assumed as 4 whitespace characters. I recommend to set your tab size to 4. For example, use `:set tabstop=4` in VI.
 
 
 
