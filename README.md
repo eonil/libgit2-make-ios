@@ -70,7 +70,9 @@ Source code is formatted with tabs which are assumed as 4 whitespace characters.
 
 
 
-
+License
+-------
+Licensed under "MIT License".
 
 
 
