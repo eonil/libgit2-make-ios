@@ -9,19 +9,33 @@ Anyway the *CMake* itself doesn't support Apple's iOS platform (yet?), and binar
 to be universal for fluent development process.
 So I made this stuff to offer automated build of `libgit2` library for iOS platform.
 
+
+
 Caveats
 -------
 - Build script works with no error for `amd64`, but spits bunch of warnings for `armv7`. I don't know why.
 - I actually haven't tested built binary code. So beware!
 - Remove `pkgconfig`. See "Requirements" section for more details.
 
+
+
 Usage
 -----
 1. Clone this repository with submodules. (`libgit2` version `v0.16.0-6682-ge8feafe` is linked as a submodule)
-2. Move to the repository directory. `cd libgit2-make-ios`. Because build script works only in repository root.
-2. Run `sh ./run.sh`. This will create `build` directory and will fill files into it.
+
+    git clone --recurse-submodules https://github.com/Eonil/libgit2-make-ios
+
+2. Move to the repository directory. Because build script works only in repository root.
+
+    cd libgit2-make-ios
+
+2. Run build script. This will create `build` directory and will fill files into it.
+
+    sh ./run.sh
 
 This script does not try to build "fat"(Universal) binary. Because simply it's harder. You can do it yourself.
+
+
 
 Requirements
 ------------
