@@ -1,1 +1,0 @@
-/Users/Eonil/Temp/a1/libgit2-make-ios/bin/CMakeFiles/git2.dir
