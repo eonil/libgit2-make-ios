@@ -49,6 +49,7 @@ These stuffs required to use this script.
    on Mac OS X. (`brew install cmake`)
 5. REMOVE `pkgconfig`. Especially the one installed by Homebrew. I don't know why, but it disrupts CMake execution by
    confusing it to use OSX SDK instead of iPhone SDK. There should be a way to avoid this, but I couldn't figure it out.
+   If you're having any issue related `curl`, I recommend you to try uninstall all Homebrew packages except `cmake`.
 
 License
 -------
