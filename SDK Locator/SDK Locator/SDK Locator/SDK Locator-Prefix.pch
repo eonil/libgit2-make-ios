@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'SDK Locator' target in the 'SDK Locator' project
-//
-
-#ifdef __OBJC__
-	#import <Foundation/Foundation.h>
-#endif
