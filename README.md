@@ -21,7 +21,7 @@ Caveats
 
 Usage
 -----
-1. Clone this repository with submodules. (`libgit2` version `v0.16.0-6682-ge8feafe` is linked as a submodule)
+1. Clone this repository with submodules. (`libgit2` version `0.23.4` is linked as a submodule)
 
         git clone --recurse-submodules https://github.com/Eonil/libgit2-make-ios
 
