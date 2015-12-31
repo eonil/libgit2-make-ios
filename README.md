@@ -3,6 +3,9 @@ libgit2-make-ios
 
 Hoon Hwangbo
 2011.12.25
+2015/12/31
+
+
 
 
 
@@ -41,17 +44,16 @@ The script will make `build` directory at current directory. And you always have
 
 
 
-
-Dependencies
+Requirements
 ------------
-
 These stuffs required to use this script.
 
 1. Internet connection. Especially to `http://github.com`
-2. Mac OS X installation. This is a script designed for only iOS platforms.
-3. Mac OS X or iOS SDK installation. This will give us Xcode and Git.
+2. OS X installation. This is a script designed for only iOS platforms.
+3. OS X or iOS SDK installation. This will give us Xcode and Git.
 4. CMake. I recommed [*Homebrew*](http://mxcl.github.com/homebrew/) to install this on Mac OS X. (`brew install cmake`)
-
+5. REMOVE `pkgconfig`. Especially installed using Homebrew. I don't know why, but it disrupts CMake execution by
+   confusing them to use OSX SDK instead of iPhone SDK. There should be a way to avoid this, but I couldn't figure it out.
 
 
 
