@@ -23,15 +23,15 @@ Usage
 -----
 1. Clone this repository with submodules. (`libgit2` version `v0.16.0-6682-ge8feafe` is linked as a submodule)
 
-    git clone --recurse-submodules https://github.com/Eonil/libgit2-make-ios
+        git clone --recurse-submodules https://github.com/Eonil/libgit2-make-ios
 
 2. Move to the repository directory. Because build script works only in repository root.
 
-    cd libgit2-make-ios
+        cd libgit2-make-ios
 
 2. Run build script. This will create `build` directory and will fill files into it.
 
-    sh ./run.sh
+        sh ./run.sh
 
 This script does not try to build "fat"(Universal) binary. Because simply it's harder. You can do it yourself.
 
@@ -53,7 +53,7 @@ These stuffs required to use this script.
 
 License
 -------
-Licensed under "MIT License". I'd be happy if you mention my name in your staff roll.
+Licensed under "MIT License". I'd be happy if you mention my name where appropriate.
 
 
 
